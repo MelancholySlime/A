@@ -15,8 +15,8 @@
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #e67a27; /* main accent color (hex, rgb or hsl) [default: #e67a27] */
-  --hover-color: #b35d1e; /* hover accent color (hex, rgb or hsl) [default: #b35d1e] */
+  --main-color: #FF6969; /* main accent color (hex, rgb or hsl) [default: #e67a27] */
+  --hover-color: #d64545; /* hover accent color (hex, rgb or hsl) [default: #b35d1e] */
   --success-color: #43b581; /* positive accent color (hex, rgb or hsl) [default: #43b581] */
   --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
   
@@ -116,3 +116,18 @@
 }
 
 /* ADD ADDITIONAL CSS BELOW HERE */
+.content_a2f514 {
+    display: flex;
+    flex-direction: column;
+> .spinner_a2f514 { display: none }
+    &:before {
+        display: block;
+        height: 160px;
+        position: relative;
+        content: url(https://media.discordapp.net/stickers/1217112512374505613.png?size=320);
+        image-rendering: pixelated;
+         align-content: center;
+         scale: 1;
+         margin-bottom: 96px;
+    }
+}
