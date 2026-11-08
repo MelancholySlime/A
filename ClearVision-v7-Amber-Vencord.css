@@ -11,7 +11,7 @@
 /* IMPORT CSS */
 @import url("https://clearvision.github.io/ClearVision-v7/main.css");
 @import url("https://clearvision.github.io/ClearVision-v7/vencord.css");
-@import url("https://raw.githubusercontent.com/Blisterexe/shiggy-loader/main/main.css");
+@import url("https://raw.githubusercontent.com/MelancholySlime/shiggy-loader/refs/heads/main/main.css");
 
 /* SETTINGS */
 :root {
@@ -30,7 +30,7 @@
   
   /* APP BACKGROUND */
   --background-shading-percent: 100%; /* app background shading amount (0 for complete smoothness) [default: 100%] */
-  --background-image: url(https://raw.githubusercontent.com/MelancholySlime/A/refs/heads/main/0d2fbd63-6900-453e-98d8-e8a492a7f4ec.jpg?token=GHSAT0AAAAAAEPG6EQIWBDA4ZJQI2AGOHXW2XQL4FA); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/amber.jpg)]*/
+  --background-image: url(https://raw.githubusercontent.com/MelancholySlime/MelancholySlime/refs/heads/main/0d2fbd63-6900-453e-98d8-e8a492a7f4ec.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/amber.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size (px) [default: cover] */
   --background-attachment: fixed; /* app background attachment [default: fixed] */
@@ -117,18 +117,4 @@
 }
 
 /* ADD ADDITIONAL CSS BELOW HERE */
-.content_a2f514 {
-    display: flex;
-    flex-direction: column;
-> .spinner_a2f514 { display: none }
-    &:before {
-        display: block;
-        height: 160px;
-        position: relative;
-        content: url(https://media.discordapp.net/stickers/1217112512374505613.png?size=320);
-        image-rendering: pixelated;
-         align-content: center;
-         scale: 1;
-         margin-bottom: 96px;
-    }
-}
+
